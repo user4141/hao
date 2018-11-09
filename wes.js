@@ -9,7 +9,7 @@
       
       let args = message.content.split(" ").slice(1);
       let x = args.join(" ")
-        if(message.content.startsWith('say')) {
+        if(message.content.startsWith('$say')) {
             message.channel.send(''+x);
                 message.delete(999)
         }
